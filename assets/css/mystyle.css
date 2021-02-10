@@ -1,0 +1,30 @@
+/*body{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
+}*/
+.question{
+	font-size: 16px;
+	font-weight: 700;
+}
+.answers {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 14px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 5px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #38a;
+}
