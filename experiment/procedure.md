@@ -1,4 +1,15 @@
- Procedure for the experiment is as follows.
+**Manual**
+
+Observation 1:
+
+   - Initial cross sectional area of specimen, ai =
+   - Initial length of the specimen, li =
+   - Ultimate load after specimen breaks =
+   - Final length of the specimen after breaking, lf =
+   - Cross sectional area at the breaking place, af =
+
+
+**Procedure for the experiment is as follows.**
 
 1. The load pointer is set at zero by adjusting the initial the initial setting mode.
 2. The dial gauge is fixed for measuring elongation of small amounts.
