@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html><head><!--Google Tag Manager--><script class="gtm">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W59SWTR');</script><!--End Google Tag Manager-->
+  <link href="style.css" rel="stylesheet"/>
+  <script src="exp.js"></script>
+ <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script>
+function graph() {
+
+var dps = []; // dataPoints
+var chart = new CanvasJS.Chart("chartContainer", {
+      title :{
+            text: "Stress v/s Strain"
+      },
+      axisY: {
+            includeZero: true,
+            title: "Stress (MPa)"
+      },
+      axisX: {
+            includeZero: true,
+            title: "Strain"
+      },      
+      data: [{
+            type: "line",
+            dataPoints: dps
+      }]
+});
+var j=0;
+var xVal = 0;
+var yVal = 0; 
+var updateInterval = 500;
+//var dataLength = 4;// number of dataPoints visible at any point
+var dp=[{xx:0.0,yy:0.0},{xx:0.00625,yy:41.73158},{xx:0.0125,yy:127.9769},{xx:0.025,yy:230.3583},{xx:0.03125,yy:233.6969},{xx:0.0375,yy:242.0432},{xx:0.04375,yy:229.8019},{xx:0.05,yy:229.5237},{xx:0.05625,yy:229.5237},{xx:0.075,yy:271.5335},{xx:0.1,yy:292.1211},{xx:0.125,yy:313.2651},{xx:0.15,yy:323.4198},{xx:0.175,yy:332.4616},{xx:0.2,yy:333.8527},{xx:0.20625,yy:333.8527}];
+var updateChart = function () {
+
+      
+      xVal = dp[j].xx;            
+      yVal = dp[j].yy;        
+      dps.push({
+                  x: xVal,
+                  y: yVal
+            });
+      
+
+      if (dps.length > 100) {
+            dps.shift();
+      }
+      if(j<15)
+      {chart.render();
+      j++;}
+};
+
+//updateChart();
+setInterval(function(){updateChart()}, updateInterval);
+
+}
+</script>
+</head>
+<body><!--Google Tag Manager (noscript)--><noscript class="gtm"><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-W59SWTR" style="display:none;visibility:hidden" width="0"></iframe></noscript><!--End Google Tag Manager (noscript)-->
+ <div id="chartContainer" style="height: 500px; width:500px;"></div>
+ <div id="regions"> 
+  <div class="trapezoid " id="xdt"></div>
+<span class="dot" id="dot1"></span>
+  <div class="trapezoid " id="ydt"></div>
+<span class="dot" id="dot2"></span>
+    <div id="up">
+      <div id="xabox"></div>
+      <div id="xbbox"></div>
+      <div id="xcbox"></div>   
+    </div>
+    <div id="down">
+      <div id="yabox"></div>
+      <div id="ybbox"></div>
+      <div id="ycbox"></div>
+    </div>  
+  
+  </div> 
+<div class="container" id="con">
+  <img id="im1" src="Images/blue.png"/>
+  <button id="bt1" onclick="graph();myfun1()">Restart</button>
+  <button id="bt2" onclick="graph();myfun1()">Start</button>
+  <button id="bt3" onclick="myfun2()">Show-Graph</button>	
+  <img id="im2" src="Images/restart.png"/>
+  <img id="im3" src="Images/start.png"/>
+  <img id="im4" src="Images/show_graph.png"/>
+</div>
+
+<div id="botbox">
+ <button id="mat">Types of Materials</button>
+ <ul>
+  <a href="exp11.html"><li>ASTM_A53</li></a>
+  <a href="exp12.html"><li>Corten Steel</li></a>
+  <a href="exp13.html"><li>Mild Steel</li></a>
+</ul>
+<button id="length">Length</button>
+<button id="diameter">Diameter</button>
+<button id="load">Load</button>
+<button id="elongation">Elongation</button>
+<button id="stress">Stress</button>
+<button id="strain">Strain</button>
+<button id="young">Young's Modulus</button>
+<p id="plength">136 mm</p>
+<p id="pdiameter">15.127 mm</p>
+<p id="pload">0.0 N</p>
+<p id="pstrain">0.0</p>
+<p id="pstress">0.0 Mpa</p>
+<p id="pelongation">0.0 mm</p>
+<p id="pyoung">0.0 MPa</p>
+<p id="mp"> <u>TENSILE TEST EXPERIMENT</u></p>
+</div>
+<div id="outline">
+  <div id="v1"></div>
+  <div id="v2"></div>
+  <div id="v3"></div>
+  <div id="l1"></div>
+  <div id="l2"></div> 
+  <div id="l3"></div>
+  </div>
+
+
+</body></html>
