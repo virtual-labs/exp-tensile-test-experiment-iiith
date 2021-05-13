@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+		<link rel="stylesheet" href="./css/main.css">
+	</head>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-		 <iframe id="exp_container" src="exp11.html"></iframe> 
+		<div class="columns is-centered">
+			<div class="column has-text-centered mt-2">
+				<button id="restart" class="action-button">Restart</button>
+				<button id="opt1" class="action-button"></button>
+				<button id="opt2" class="action-button"></button>
+			</div>
+		</div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+		<div class="columns is-centered">
+			<div class="column has-text-centered is-two-fifths">
+				<span id="current" class="tag is-large is-primary"></span>
+				<div class="hero is-small">
+					<div class="hero-body">
+						<canvas class="main" id="main"></canvas>
+					</div>
+				</div>
+			</div>
+			<div class="column has-text-centered">
+				<div class = "columns box mt-3" >
+					<div class="column">
+						<span class="tag is-primary is-light">Length :</span>
+						<span id="length">136 mm</span><br><br>
+						<span class="tag is-primary is-light">Diameter :</span>
+						<span id="diameter"> 15.127 mm</span> 
+					</div>
+					<div class="column">
+						<span class="tag is-primary is-light">Stress :</span>
+						<span id = "stress">41.73158 Mpa</span><br><br>
+						<span class="tag is-primary is-light">Strain :</span>
+						<span id="strain">0.0 </span><br><br>
+						<span class="tag is-primary is-light">Young's Modulus :</span>
+						<span id="young">6677.0528 Mpa</span>
+					</div>
+					<div class="column">
+						<span class="tag is-primary is-light">Load :</span>
+						<span id = "load">7500 N</span><br><br>
+						<span class="tag is-primary is-light">Elongation :</span>
+						<span id = "elongation">0.85 mm</span> 
+					</div>
+				</div>
+				<div>
+					<div class="hero is-small">
+						<div id="chartContainer"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://unpkg.com/mathjs@9.2.0/lib/browser/math.js"></script>
+		<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+		<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+		<script src="./js/main.js"></script>
+	</body>
 </html>
