@@ -18,6 +18,5 @@ Observation 1:
 5. Start the machine and the specimen is gradually loaded. Note down the load and its corresponding dial gauge reading. The observations are taken until the specimen breaks
 6. Plot the graph between stress vs. strain.
 
-<a href="docs/Exp-1-Tension-Test.pdf">read more</a>
 
 
