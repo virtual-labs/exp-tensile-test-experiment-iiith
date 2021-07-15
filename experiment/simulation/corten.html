@@ -10,12 +10,12 @@
 
 <div class="v-tabs ml-4">
     <ul>
-        <li class="is-active">
+        <li>
             <a href="index.html">
                 <span>ASTM A53</span>
             </a>
         </li>
-        <li>
+        <li class="is-active">
             <a href="corten.html">
                 <span>Corten Steel</span>
             </a>
@@ -41,8 +41,10 @@
             <button id="pause" class="v-button" disabled>Pause</button>
             <button id="restart" class="v-button" disabled>Restart</button>
             <br>
-            <p>Simulation speed: <span id="demo_speed"></span>x</p>
-            <input type="range" min="1" max="8" value="4" class="slider" id="speed">
+            <div class="slidecontainer">
+                <p>Simulation speed: <span id="demo_speed"></span>x</p>
+                <input type="range" min="1" max="8" value="4" class="slider" id="speed">
+            </div>
         </div>
         <div class="column has-text-centered">
             <div class="v-table-wrap">
@@ -60,8 +62,8 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>136</td>
-                            <td>15.127</td>
+                            <td>50.8</td>
+                            <td>12.725</td>
                             <td><span id="stress">0.0</span></td>
                             <td><span id="strain">0.0 </span></td>
                             <td><span id="load">0.0</span></td>
@@ -78,8 +80,9 @@
     </div>
 </div>
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
-<script src="./js/main.js"></script>
 <script src="./js/data.json"></script>
+<script src="./js/corten.js"></script>
+
 </body>
 
 </html>

@@ -10,7 +10,7 @@
 
 <div class="v-tabs ml-4">
     <ul>
-        <li class="is-active">
+        <li>
             <a href="index.html">
                 <span>ASTM A53</span>
             </a>
@@ -20,7 +20,7 @@
                 <span>Corten Steel</span>
             </a>
         </li>
-        <li>
+        <li class="is-active">
             <a href="mild.html">
                 <span>Mild Steel</span>
             </a>
@@ -41,8 +41,10 @@
             <button id="pause" class="v-button" disabled>Pause</button>
             <button id="restart" class="v-button" disabled>Restart</button>
             <br>
-            <p>Simulation speed: <span id="demo_speed"></span>x</p>
-            <input type="range" min="1" max="8" value="4" class="slider" id="speed">
+            <div class="slidecontainer">
+                <p>Simulation speed: <span id="demo_speed"></span>x</p>
+                <input type="range" min="1" max="8" value="4" class="slider" id="speed">
+            </div>
         </div>
         <div class="column has-text-centered">
             <div class="v-table-wrap">
@@ -60,9 +62,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>136</td>
-                            <td>15.127</td>
-                            <td><span id="stress">0.0</span></td>
+                            <td>350</td>
+                            <td>11.6</td>
+                            <td><span id="stress">0.0 </span></td>
                             <td><span id="strain">0.0 </span></td>
                             <td><span id="load">0.0</span></td>
                             <td><span id="elongation">0.0</span> </td>
@@ -78,7 +80,7 @@
     </div>
 </div>
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
-<script src="./js/main.js"></script>
+<script src="./js/mild.js"></script>
 <script src="./js/data.json"></script>
 </body>
 

@@ -3,13 +3,12 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     // RAW DATA USED IN THE SIMULATION
-    // Material ASTM A53
-    const stress = [41.73158, 127.9769, 230.3583, 233.6969, 242.0432, 229.8019, 229.5237, 229.5237, 271.5335, 292.1211, 313.2651, 323.4198, 332.4616, 333.8527, 333.8527];
-    const strain = [0.00625, 0.0125, 0.025, 0.03125, 0.0375, 0.04375, 0.05, 0.05625, 0.075, 0.1, 0.125, 0.15, 0.175, 0.2, 0.20625];
-    const youngM = [6677.0528, 10238.152, 9214.332, 7478.3008, 6454.485333, 5252.614857, 4590.474, 4080.421333, 3620.446667, 2921.211, 2506.1208, 2156.132, 1899.780571, 1669.2635, 1618.679758];
-    const load = [7500, 23000, 41400, 42000, 43500, 41300, 41250, 41250, 48800, 52500, 56300, 58125, 59750, 60000, 60000];
-    const elongation = [0.85, 1.7, 3.4, 4.25, 5.1, 5.95, 6.8, 7.65, 10.2, 13.6, 17, 20.4, 23.8, 27.2, 28.05];
-
+    // Material Corten Steel
+    const stress = [52.46200115, 160.8834702, 279.7973394, 384.7213417, 412.7010757, 412.7010757, 419.6960092, 580.5794794, 699.4933486, 751.9553498, 682.0060149, 647.0313475];
+    const strain = [0.00025, 0.00075, 0.00125, 0.00175, 0.0025, 0.004, 0.01, 0.02, 0.05, 0.14, 0.2, 0.23];
+    const youngM = [209848.0046, 214511.2936, 223837.8716, 219840.7667, 165080.4303, 103175.2689, 41969.60092, 29028.97397, 13989.86697, 5371.109641, 3410.030075, 2813.179772];
+    const load = [6672.3324, 20461.81936, 35585.7728, 48930.4376, 52489.01488, 52489.01488, 53378.6592, 73840.47856, 88964.432, 95636.7644, 86740.3212, 82292.0996];
+    const elongation = [0.0127, 0.0381, 0.0635, 0.0889, 0.127, 0.2032, 0.508, 1.016, 2.54, 7.112, 10.16, 11.684];
 
 
     const restartButton = document.getElementById('restart');
@@ -137,6 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
     canvas.style = "border:3px solid;";
     const ctx = canvas.getContext("2d");
 
+    const fill = "#A9A9A9";
     const lineWidth = 1.5;
     const originalFPS = 20;
     let fps = 20;
@@ -153,6 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const tubeWidth2 = 215;
     const tubeHeight1 = 220;
     const tubeHeight2 = 35;
+    const matColor = "green";
     let step = 0;
     let chart = [];
 
@@ -165,25 +166,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function drawStatic() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = fill;
         ctx.lineWidth = lineWidth;
         ctx.lineCap = "round";
         ctx.lineJoin = "round";
+        ctx.fillStyle = "black";
         ctx.font = "60px Arial";
         ctx.fillText("UTM Machine", 290, 70);
 
         drawObject(ctx, topPlate, data.colors.platecolor);
         drawObject(ctx, bottomPlate, data.colors.platecolor);
-        drawObject(ctx, upperTube, data.colors.astm);
-        drawObject(ctx, lowerTube, data.colors.astm);
+        drawObject(ctx, upperTube, data.colors.corten);
+        drawObject(ctx, lowerTube, data.colors.corten);
     }
 
     function draw() {
 
         if (topPlate[0][1] > 100 && step < stress.length) {
-            move(upperTube, -2.5);
-            move(lowerTube, 2.5);
-            move(topPlate, -2.5);
-            move(bottomPlate, 2.5);
+            move(upperTube, -3);
+            move(lowerTube, 3);
+            move(topPlate, -3);
+            move(bottomPlate, 3);
             drawStatic();
             updateChart();
             tmHandle = window.setTimeout(draw, 4000 / fps);

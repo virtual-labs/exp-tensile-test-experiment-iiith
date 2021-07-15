@@ -1,1 +1,46 @@
-[{"question": "1. We apply the experiment in close end condition.", "answers": {"a": "True", "b": "False"}, "correctAnswer": "b"}, {"question": "2. Longitudinal stress is equal to half the hoop stress in same pressure.", "answers": {"a": "True", "b": "False"}, "correctAnswer": "b"}, {"question": "3. In an open end condition, longitudinal stress is equal to zero.", "answers": {"a": "True", "b": "False"}, "correctAnswer": "b"}]
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "Ends of the specimen should be plain.",
+            "answers": {
+                "a": "True",
+                "b": "False"
+            },
+            "explanations": {
+                "a": "Correct Answer",
+                "b": "Ends of the specimen should be plain because the ends are tested on a bearing plate."
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "In universal testing machine, for a circular section specimen, the gauge length is taken to be ______________ where A is the area of cross section of the specimen.",
+            "answers": {
+                "a": "3.65 √A",
+                "b": "4.65 √A",
+                "c": "5.65 √A",
+                "d": "6.65 √A"
+            },
+            "explanations": {
+                "c": "It is the formula to find the gauge length when we have the area of the specimen."
+            },
+            "correctAnswer": "c",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "In the compression test on mild steel, the ultimate strength of a specimen 1 with cross sectional area A is obtained as T.A specimen 2 of mild steel with cross sectional area 2A and height of the specimen same as the specimen 1 compression test is conducted. The ultimate strength of the specimen 2 is ",
+            "answers": {
+                "a": "2T",
+                "b": "T/2",
+                "c": "T",
+                "d": "None of the above"
+            },
+            "explanations": {
+                "c": "Ultimate strength is property of material , the change in dimension does not affect the ultimate strength."
+            },
+            "correctAnswer": "c",
+            "difficulty": "advanced"
+        }
+
+    ]
+}
