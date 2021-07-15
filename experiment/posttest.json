@@ -1,44 +1,45 @@
 {
     "version": 2.0,
     "questions": [{
-            "question": "Ends of the specimen should be plain.",
+            "question": "A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the tensile stress on the yield point?",
             "answers": {
-                "a": "True",
-                "b": "False"
-            },
-            "explanations": {
-                "a": "Correct Answer",
-                "b": "Ends of the specimen should be plain because the ends are tested on a bearing plate."
-            },
-            "correctAnswer": "a",
-            "difficulty": "beginner"
-        },
-        {
-            "question": "In universal testing machine, for a circular section specimen, the gauge length is taken to be ______________ where A is the area of cross section of the specimen.",
-            "answers": {
-                "a": "3.65 √A",
-                "b": "4.65 √A",
-                "c": "5.65 √A",
-                "d": "6.65 √A"
-            },
-            "explanations": {
-                "c": "It is the formula to find the gauge length when we have the area of the specimen."
-            },
-            "correctAnswer": "c",
-            "difficulty": "intermediate"
-        },
-        {
-            "question": "In the compression test on mild steel, the ultimate strength of a specimen 1 with cross sectional area A is obtained as T.A specimen 2 of mild steel with cross sectional area 2A and height of the specimen same as the specimen 1 compression test is conducted. The ultimate strength of the specimen 2 is ",
-            "answers": {
-                "a": "2T",
-                "b": "T/2",
-                "c": "T",
+                "a": "262.6 N/mm<sup>2</sup>",
+                "b": "525.2 N/mm<sup>2</sup>",
+                "c": "131.3 N/mm<sup>2</sup>",
                 "d": "None of the above"
             },
             "explanations": {
-                "c": "Ultimate strength is property of material , the change in dimension does not affect the ultimate strength."
+                "a": "Original sectional area of the specimen = π/4 x (20)<sup>2</sup>  = 314.2 mm<sup>2</sup> <br> Tensile stress at yielding  = 82.5 x 1000 / 314.2 = 262.6 N/mm<sup>2</sup>"
+            },
+            "correctAnswer": "a",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the ultimate stress?",
+            "answers": {
+                "a": "986.6 N/mm<sup>2</sup>",
+                "b": "1973.2 N/mm<sup>2</sup>",
+                "c": "493.3 N/mm<sup>2</sup>",
+                "d": "None of the above"
+            },
+            "explanations": {
+                "c": "Ultimate Stress means the nominal stress corresponding to the maximum load <br> Ultimate Stress = 155 x 1000/ 314.15 = 493.3 N/mm<sup>2</sup>"
             },
             "correctAnswer": "c",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the average stress at the breaking point if the diameter of the neck is 10.75 mm?",
+            "answers": {
+                "a": "199.7 N/mm<sup>2</sup>",
+                "b": "798.8 N/mm<sup>2</sup>",
+                "c": "399.4 N/mm<sup>2</sup>",
+                "d": "None of the above"
+            },
+            "explanations": {
+                "c": "Area of the specimen in the necked portion = π/4 x (10.75)<sup>2</sup> = 90.76 mm<sup>2</sup> <br> Average size at the breaking point  = 72.5 x 1000 / 90.76 = 798.8 N/mm<sup>2</sup>"
+            },
+            "correctAnswer": "b",
             "difficulty": "advanced"
         }
 

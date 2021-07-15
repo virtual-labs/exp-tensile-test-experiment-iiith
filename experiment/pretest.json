@@ -1,46 +1,70 @@
 {
     "version": 2.0,
     "questions": [{
-            "question": "Ends of the specimen should be plain.",
+            "question": "What is proportionality limit?",
             "answers": {
-                "a": "True",
-                "b": "False"
+                "a": "Limit up to which the necking begins.",
+                "b": "Limit up to which the material breaks.",
+                "c": "Limit up to which the Hooke's law is valid.",
+                "d": "Limit up to which the stress is proportional to strain ",
+                "e": "Both c & d."
             },
             "explanations": {
-                "a": "Correct Answer",
-                "b": "Ends of the specimen should be plain because the ends are tested on a bearing plate."
+                "e": "Proportionality limit is where till the hookes law is valid and stress is directly proportional to the strain.  "
+            },
+            "correctAnswer": "e",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "The elastic limit of a material is _____________",
+            "answers": {
+                "a": "the least amount of stress that can be held without permanent deformation",
+                "b": "highest stress a material can experience without permanent deformation",
+                "c": "average stress experienced by material in its lifeline.",
+                "d": "strain on material"
+            },
+            "explanations": {
+                "b": "The elastic limit is the highest stress that a material can withstand, without permanent deformation present when the stress is released completely. It is not the lowest amount of stress present."
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "True stress-strain curve for materials is plotted between.",
+            "answers": {
+                "a": "load/original cross-sectional area and change in length/original length",
+                "b": "load/instantaneous cross-sectional area and log(length/original length)",
+                "c": "load/instantaneous cross-sectional area and change in length/original length",
+                "d": "load/instantaneous cross-sectional area and instantaneous area/ original area."
+            },
+            "explanations": {
+                "c": "Ultimate strength is property of material , the change in dimension does not affect the ultimate strength."
+            },
+            "correctAnswer": "b",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "The tensile test is carried on __________ materials. ",
+            "answers": {
+                "a": "Ductile",
+                "b": "Brittle",
+                "c": "Malleable",
+                "d": "Plastic"
+            },
+            "explanations": {
+                "a": "The brittle materials are weak in tension. The malleable materials are to be hammered into thin sheets. The plasticity is a property where there will be huge strain with almost slight application of load. The tensile test is conducted on the ductile materials."
             },
             "correctAnswer": "a",
             "difficulty": "beginner"
         },
         {
-            "question": "In universal testing machine, for a circular section specimen, the gauge length is taken to be ______________ where A is the area of cross section of the specimen.",
+            "question": "Extensometer is a device that  measures change in length to the gage length.",
             "answers": {
-                "a": "3.65 √A",
-                "b": "4.65 √A",
-                "c": "5.65 √A",
-                "d": "6.65 √A"
+                "a": "True",
+                "b": "False"
             },
-            "explanations": {
-                "c": "It is the formula to find the gauge length when we have the area of the specimen."
-            },
-            "correctAnswer": "c",
+            "correctAnswer": "a",
             "difficulty": "intermediate"
-        },
-        {
-            "question": "In the compression test on mild steel, the ultimate strength of a specimen 1 with cross sectional area A is obtained as T.A specimen 2 of mild steel with cross sectional area 2A and height of the specimen same as the specimen 1 compression test is conducted. The ultimate strength of the specimen 2 is ",
-            "answers": {
-                "a": "2T",
-                "b": "T/2",
-                "c": "T",
-                "d": "None of the above"
-            },
-            "explanations": {
-                "c": "Ultimate strength is property of material , the change in dimension does not affect the ultimate strength."
-            },
-            "correctAnswer": "c",
-            "difficulty": "advanced"
         }
-
     ]
 }
