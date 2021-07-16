@@ -137,7 +137,6 @@ document.addEventListener('DOMContentLoaded', function() {
     canvas.style = "border:3px solid;";
     const ctx = canvas.getContext("2d");
 
-    const fill = "#A9A9A9";
     const lineWidth = 1.5;
     const originalFPS = 20;
     let fps = 20;
@@ -166,11 +165,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function drawStatic() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.fillStyle = fill;
         ctx.lineWidth = lineWidth;
         ctx.lineCap = "round";
         ctx.lineJoin = "round";
-        ctx.fillStyle = "black";
         ctx.font = "60px Arial";
         ctx.fillText("UTM Machine", 290, 70);
 

@@ -50,7 +50,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         };
         let data = [chart1, chart2, chart3];
-        console.log(data[0].length);
         Plotly.newPlot(chartContainer, data, layout);
     }
 })
