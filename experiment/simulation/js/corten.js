@@ -186,6 +186,10 @@ document.addEventListener('DOMContentLoaded', function() {
             drawStatic();
             updateChart();
             tmHandle = window.setTimeout(draw, 4000 / fps);
+        } else {
+            pauseButton.setAttribute("disabled", "true");
+            playButton.setAttribute("disabled", "true");
+
         }
 
     }
