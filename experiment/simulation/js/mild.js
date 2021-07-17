@@ -3,12 +3,12 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     // RAW DATA USED IN THE SIMULATION
-    // Material ASTM A53
-    const stress = [41.73158, 127.9769, 230.3583, 233.6969, 242.0432, 229.8019, 229.5237, 229.5237, 271.5335, 292.1211, 313.2651, 323.4198, 332.4616, 333.8527, 333.8527];
-    const strain = [0.00625, 0.0125, 0.025, 0.03125, 0.0375, 0.04375, 0.05, 0.05625, 0.075, 0.1, 0.125, 0.15, 0.175, 0.2, 0.20625];
-    const youngM = [6677.0528, 10238.152, 9214.332, 7478.3008, 6454.485333, 5252.614857, 4590.474, 4080.421333, 3620.446667, 2921.211, 2506.1208, 2156.132, 1899.780571, 1669.2635, 1618.679758];
-    const load = [7500, 23000, 41400, 42000, 43500, 41300, 41250, 41250, 48800, 52500, 56300, 58125, 59750, 60000, 60000];
-    const elongation = [0.85, 1.7, 3.4, 4.25, 5.1, 5.95, 6.8, 7.65, 10.2, 13.6, 17, 20.4, 23.8, 27.2, 28.05];
+    // Material Mild Steel
+    const stress = [10.61299177, 20.49405306, 32.57090576, 40.07319305, 72.27813358, 103.3851784, 139.2497713, 209.5150961, 273.4675206, 345.4711802, 436.5965233, 527.5388838, 565.9652333, 649.0393413, 700.8234218, 742.5434584, 756.6331199, 789.5699909, 797.621226, 801.4638609, 806.0384263, 807.5022873, 805.6724611, 801.2808783, 773.6505032, 747.904849];
+    const strain = [0.00142, 0.00285, 0.00428, 0.00571, 0.00714, 0.00857, 0.01, 0.01142, 0.01285, 0.01428, 0.01574, 0.01714, 0.01857, 0.02, 0.02142, 0.02285, 0.02428, 0.025714, 0.02714, 0.02857, 0.03, 0.03142, 0.03285, 0.03428, 0.03571, 0.03714];
+    const youngM = [7473.937863, 7190.895812, 7610.024711, 7018.072337, 10122.9879, 12063.61475, 13924.97713, 18346.33065, 1281.51911, 24192.65968, 27738.02562, 30778.23126, 30477.39544, 32451.96706, 32718.18029, 32496.43144, 31162.81383, 30705.84082, 29389.13876, 28052.63776, 26867.94754, 25700.26376, 24525.7979, 23374.58805, 21664.81387, 20137.44882];
+    const load = [1160, 2240, 3560, 4380, 7900, 11300, 15220, 22900, 29890, 37760, 47720, 57660, 61860, 70940, 76600, 81160, 82700, 86300, 87180, 87600, 88100, 88260, 88060, 87580, 84560, 81746];
+    const elongation = [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13];
 
 
 
@@ -173,17 +173,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
         drawObject(ctx, topPlate, data.colors.platecolor);
         drawObject(ctx, bottomPlate, data.colors.platecolor);
-        drawObject(ctx, upperTube, data.colors.astm);
-        drawObject(ctx, lowerTube, data.colors.astm);
+        drawObject(ctx, upperTube, data.colors.mild);
+        drawObject(ctx, lowerTube, data.colors.mild);
     }
 
     function draw() {
 
         if (topPlate[0][1] > 100 && step < stress.length) {
-            move(upperTube, -2.5);
-            move(lowerTube, 2.5);
-            move(topPlate, -2.5);
-            move(bottomPlate, 2.5);
+            move(upperTube, -1.5);
+            move(lowerTube, 1.5);
+            move(topPlate, -1.5);
+            move(bottomPlate, 1.5);
             drawStatic();
             updateChart();
             tmHandle = window.setTimeout(draw, 4000 / fps);
@@ -194,7 +194,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
     }
-
 
     function graph() {
         chart = [{
@@ -218,6 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateChart() {
+
 
         let x = strain[step];
         let y = stress[step];

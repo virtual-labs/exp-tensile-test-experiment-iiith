@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<div class="v-tabs ml-4">
+    <ul>
+        <li>
+            <a href="index.html">
+                <span>ASTM A53</span>
+            </a>
+        </li>
+        <li>
+            <a href="corten.html">
+                <span>Corten Steel</span>
+            </a>
+        </li>
+        <li>
+            <a href="mild.html">
+                <span>Mild Steel</span>
+            </a>
+        </li>
+        <li class="is-active">
+            <a href="comparison.html">
+                <span>Comparison</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="columns is-centered">
+    <div class="column has-text-centered is-half">
+        <div id="chartContainer"></div>
+    </div>
+</div>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script src="./js/comparison.js"></script>
+</body>
+
+</html>
