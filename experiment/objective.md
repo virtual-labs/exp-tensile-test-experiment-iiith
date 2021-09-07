@@ -1,0 +1,1 @@
+- To develop an understanding of stress-strain curves of materials, and learn how to use them to determine various mechanical properties of ductile and brittle materials. 
