@@ -4,7 +4,4 @@ A tensile test, also known as tension test, is probably the most fundamental typ
 
 Tensile testing is one of the more basic tests to determine stress-strain relationships.Test specimens for tensile testing are generally either circular or rectangular with larger ends to facilitate gripping the sample. 
 
-**Objective**
-
-To develop an understanding of stress-strain curves of materials, and learn how to use them to determine various mechanical properties of ductile and brittle materials. 
  
