@@ -1,7 +1,7 @@
 {
     "version": 2.0,
     "questions": [{
-            "question": "A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the tensile stress on the yield point?",
+            "question": "1. A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the tensile stress on the yield point?",
             "answers": {
                 "a": "262.6 N/mm<sup>2</sup>",
                 "b": "525.2 N/mm<sup>2</sup>",
@@ -15,7 +15,7 @@
             "difficulty": "advanced"
         },
         {
-            "question": "A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the ultimate stress?",
+            "question": "2. A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the ultimate stress?",
             "answers": {
                 "a": "986.6 N/mm<sup>2</sup>",
                 "b": "1973.2 N/mm<sup>2</sup>",
@@ -29,7 +29,7 @@
             "difficulty": "advanced"
         },
         {
-            "question": "A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the average stress at the breaking point if the diameter of the neck is 10.75 mm?",
+            "question": "3. A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the average stress at the breaking point if the diameter of the neck is 10.75 mm?",
             "answers": {
                 "a": "199.7 N/mm<sup>2</sup>",
                 "b": "798.8 N/mm<sup>2</sup>",

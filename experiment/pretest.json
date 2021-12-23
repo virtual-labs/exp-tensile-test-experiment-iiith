@@ -1,7 +1,7 @@
 {
     "version": 2.0,
     "questions": [{
-            "question": "What is proportionality limit?",
+            "question": "1. What is proportionality limit?",
             "answers": {
                 "a": "Limit up to which the necking begins.",
                 "b": "Limit up to which the material breaks.",
@@ -16,7 +16,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "The elastic limit of a material is _____________",
+            "question": "2. The elastic limit of a material is _____________",
             "answers": {
                 "a": "the least amount of stress that can be held without permanent deformation",
                 "b": "highest stress a material can experience without permanent deformation",
@@ -30,7 +30,7 @@
             "difficulty": "intermediate"
         },
         {
-            "question": "True stress-strain curve for materials is plotted between.",
+            "question": "3. True stress-strain curve for materials is plotted between.",
             "answers": {
                 "a": "load/original cross-sectional area and change in length/original length",
                 "b": "load/instantaneous cross-sectional area and log(length/original length)",
@@ -44,7 +44,7 @@
             "difficulty": "advanced"
         },
         {
-            "question": "The tensile test is carried on __________ materials. ",
+            "question": "4. The tensile test is carried on __________ materials. ",
             "answers": {
                 "a": "Ductile",
                 "b": "Brittle",
@@ -58,7 +58,7 @@
             "difficulty": "beginner"
         },
         {
-            "question": "Extensometer is a device that  measures change in length to the gage length.",
+            "question": "5. Extensometer is a device that  measures change in length to the gage length.",
             "answers": {
                 "a": "True",
                 "b": "False"
