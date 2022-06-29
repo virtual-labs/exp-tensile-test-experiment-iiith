@@ -1,5 +1,49 @@
+.v-datalist-container {
+  min-height: 38.25rem;
+  height: 70vh;
+  width: 100%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: white;
+}
+
+.v-table-wrap{
+	overflow-y: auto !important;
+}
+
 .main {
     width: 85%;
     height: 85%;
-    background-color: white;
+    /*background-color: white;*/
+}
+
+#chartContainer{
+	height: 53vh;
+	width: 90% ;
+}
+
+.apparatus {
+	order: 1;
+}
+
+.simulation {
+	order: 2;
+}
+
+.observations {
+	order: 3;
+}
+
+@media screen and (max-width: 1023px) {
+	.apparatus {
+		order: 1;
+	}
+
+	.simulation {
+		order: 3;
+	}
+
+	.observations {
+		order: 2;
+	}
 }
