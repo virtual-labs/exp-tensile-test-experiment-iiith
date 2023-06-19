@@ -1,0 +1,70 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "1. What is proportionality limit?",
+            "answers": {
+                "a": "Limit up to which the necking begins.",
+                "b": "Limit up to which the material breaks.",
+                "c": "Limit up to which the Hooke's law is valid.",
+                "d": "Limit up to which the stress is proportional to strain ",
+                "e": "Both c & d."
+            },
+            "explanations": {
+                "e": "Proportionality limit is where till the hookes law is valid and stress is directly proportional to the strain.  "
+            },
+            "correctAnswer": "e",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. The elastic limit of a material is _____________",
+            "answers": {
+                "a": "the least amount of stress that can be held without permanent deformation",
+                "b": "highest stress a material can experience without permanent deformation",
+                "c": "average stress experienced by material in its lifeline.",
+                "d": "strain on material"
+            },
+            "explanations": {
+                "b": "The elastic limit is the highest stress that a material can withstand, without permanent deformation present when the stress is released completely. It is not the lowest amount of stress present."
+            },
+            "correctAnswer": "b",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "3. True stress-strain curve for materials is plotted between.",
+            "answers": {
+                "a": "load/original cross-sectional area and change in length/original length",
+                "b": "load/instantaneous cross-sectional area and log(length/original length)",
+                "c": "load/instantaneous cross-sectional area and change in length/original length",
+                "d": "load/instantaneous cross-sectional area and instantaneous area/ original area."
+            },
+            "explanations": {
+                "c": "Ultimate strength is property of material , the change in dimension does not affect the ultimate strength."
+            },
+            "correctAnswer": "b",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "4. The tensile test is carried on __________ materials. ",
+            "answers": {
+                "a": "Ductile",
+                "b": "Brittle",
+                "c": "Malleable",
+                "d": "Plastic"
+            },
+            "explanations": {
+                "a": "The brittle materials are weak in tension. The malleable materials are to be hammered into thin sheets. The plasticity is a property where there will be huge strain with almost slight application of load. The tensile test is conducted on the ductile materials."
+            },
+            "correctAnswer": "a",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "5. Extensometer is a device that  measures change in length to the gage length.",
+            "answers": {
+                "a": "True",
+                "b": "False"
+            },
+            "correctAnswer": "a",
+            "difficulty": "intermediate"
+        }
+    ]
+}

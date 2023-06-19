@@ -1,0 +1,47 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "1. A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the tensile stress on the yield point?",
+            "answers": {
+                "a": "262.6 N/mm<sup>2</sup>",
+                "b": "525.2 N/mm<sup>2</sup>",
+                "c": "131.3 N/mm<sup>2</sup>",
+                "d": "None of the above"
+            },
+            "explanations": {
+                "a": "Original sectional area of the specimen = π/4 x (20)<sup>2</sup>  = 314.2 mm<sup>2</sup> <br> Tensile stress at yielding  = 82.5 x 1000 / 314.2 = 262.6 N/mm<sup>2</sup>"
+            },
+            "correctAnswer": "a",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "2. A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the ultimate stress?",
+            "answers": {
+                "a": "986.6 N/mm<sup>2</sup>",
+                "b": "1973.2 N/mm<sup>2</sup>",
+                "c": "493.3 N/mm<sup>2</sup>",
+                "d": "None of the above"
+            },
+            "explanations": {
+                "c": "Ultimate Stress means the nominal stress corresponding to the maximum load <br> Ultimate Stress = 155 x 1000/ 314.15 = 493.3 N/mm<sup>2</sup>"
+            },
+            "correctAnswer": "c",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "3. A mild steel bar specimen of diameter 20 mm is subjected to a tensile test. The bar was found to yield under a load of 82.5 kN and the specimen attained a maximum load of 155 kN and ultimately broke at a load of 72.5 kN. What is the average stress at the breaking point if the diameter of the neck is 10.75 mm?",
+            "answers": {
+                "a": "199.7 N/mm<sup>2</sup>",
+                "b": "798.8 N/mm<sup>2</sup>",
+                "c": "399.4 N/mm<sup>2</sup>",
+                "d": "None of the above"
+            },
+            "explanations": {
+                "c": "Area of the specimen in the necked portion = π/4 x (10.75)<sup>2</sup> = 90.76 mm<sup>2</sup> <br> Average size at the breaking point  = 72.5 x 1000 / 90.76 = 798.8 N/mm<sup>2</sup>"
+            },
+            "correctAnswer": "b",
+            "difficulty": "advanced"
+        }
+
+    ]
+}
