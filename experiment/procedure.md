@@ -1,20 +1,25 @@
 **Procedure**
 
-1. The load pointer is set at zero by adjusting the initial setting mode.
-2. The dial gauge is fixed for measuring elongation of small amounts.
-3. Measure the diameter of the test piece with the help of a vernier calliper and determine the mean value. Also mark the gauge length.
-4. Now the specimen is gripped between the upper and middle cross head jaws of the machine.
-5. Start the machine and the specimen is gradually loaded. Note down the load and its corresponding dial gauge reading. The observations are taken until the specimen breaks.
-6. Plot the graph between stress and strain.
-
+1. Set the load pointer to zero using the initial adjustment setting.
+2. Fix the dial gauge to measure small elongations in the specimen.
+3. Measure the diameter of the test specimen using a vernier caliper and determine its mean value. Also, mark the gauge length on the specimen.
+4. Grip the specimen securely between the upper and middle crosshead jaws of the Universal Testing Machine (UTM).
+5. Start the machine and apply the load gradually to the specimen.
+6. Record the applied load and the corresponding dial gauge readings at regular intervals.
+7. Continue taking observations until the specimen fractures.
+8. Calculate the stress and strain values from the recorded observations.
+9. Plot the stress-strain curve using the calculated values.
 
 **Virtual Procedure**
-1. Choose the material of the specimen for the experiment from the tab.
-2. Start the Experiment by clicking the play button.
-3. Observe the extension of rod in the simulation window.
-4. As the simulation continues the different value of stress, strain and elongation are observed according to the increasing Load.
-5. A Graph is plotted between the stress-strain values observed.
-6. A Comparison tab is provided to compare the stress-strains curves of different materials.
-7. The Experiment allows you to pause/play/restart the simulation to view the values of different parameters at every stage of simulation.
 
-NOTE: There are various features available for the graphs such as zoom, etc. The function/feature of each icon above the graphs becomes visible upon hovering over the concerned icon.
+1. Select the material of the specimen from the available options.
+2. Start the experiment by clicking the Play button.
+3. Observe the extension of the specimen in the simulation window.
+4. As the simulation progresses, observe the corresponding values of load, stress, strain, and elongation.
+5. Observe the stress-strain graph generated during the experiment.
+6. Use the Comparison tab to compare the stress-strain behaviour of different materials.
+7. You may pause, play, or restart the simulation at any stage to examine the values of different parameters.
+
+Note:
+
+Various graph features such as zooming and panning are available. The function of each icon can be viewed by hovering the cursor over the respective icon.
