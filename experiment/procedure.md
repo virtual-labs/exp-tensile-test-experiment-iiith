@@ -1,4 +1,4 @@
-**Procedure**
+### Procedure
 
 1. Set the load pointer to zero using the initial adjustment setting.
 2. Fix the dial gauge to measure small elongations in the specimen.
@@ -10,7 +10,7 @@
 8. Calculate the stress and strain values from the recorded observations.
 9. Plot the stress-strain curve using the calculated values.
 
-**Virtual Procedure**
+### Virtual Procedure
 
 1. Select the material of the specimen from the available options.
 2. Start the experiment by clicking the Play button.
@@ -20,6 +20,6 @@
 6. Use the Comparison tab to compare the stress-strain behaviour of different materials.
 7. You may pause, play, or restart the simulation at any stage to examine the values of different parameters.
 
-Note:
+**Note:**
 
 Various graph features such as zooming and panning are available. The function of each icon can be viewed by hovering the cursor over the respective icon.
