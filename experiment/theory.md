@@ -8,11 +8,21 @@ The experiment is commonly performed using a Universal Testing Machine (UTM), wh
 
 ### Physical Concept
 
-When a material is subjected to a tensile force, internal resisting forces develop within the material. These forces are distributed over the cross-sectional area of the specimen and produce stress.
+When a material is subjected to an axial tensile force, equal and opposite forces act along the longitudinal axis of the specimen. These external forces create internal resisting forces that are distributed over the cross-sectional area of the specimen, producing tensile stress.
 
-As the applied load increases, the specimen elongates and experiences strain. Initially, the material behaves elastically and returns to its original dimensions when the load is removed. Beyond a certain limit, permanent deformation begins, and the material eventually fractures.
+As the applied load increases, the specimen elongates and experiences tensile strain. Initially, the material behaves elastically and returns to its original dimensions when the load is removed. Beyond the elastic limit, permanent (plastic) deformation begins, and continued loading eventually causes fracture.
 
-The tensile test studies this complete load-deformation behaviour.
+The tensile test studies this complete load–deformation behaviour and provides the stress–strain relationship of the material.
+
+<div align="center">
+
+<img src="images/tensile_loading_concept.png" alt="Concept of Axial Tensile Loading" width="340">
+
+**Figure 1. Concept of axial tensile loading acting on a specimen.**
+
+</div>
+
+Equal and opposite axial forces produce tensile stress within the specimen, causing it to elongate. In the actual experiment, the specimen is held between the grips of a Universal Testing Machine (UTM), which applies these tensile forces in a controlled manner.
 
 ### Everyday Intuition
 
@@ -25,7 +35,7 @@ Examples include:
 - Reinforcement bars resisting tensile forces in concrete structures.
 - Steel wires used in elevators.
 
-In each case, the material must be capable of safely carrying tensile loads without failure.
+In each case, the material must safely withstand tensile forces without failure.
 
 ### Experimental Relevance
 
@@ -55,7 +65,7 @@ The major components are:
 - Extensometer or dial gauge
 - Control panel
 
-A standard specimen is securely gripped between the machine jaws. A gradually increasing tensile load is applied, while the corresponding elongation is measured. The collected data are used to construct the stress-strain curve of the material.
+A standard specimen is securely gripped between the machine jaws. A gradually increasing tensile load is applied while the corresponding elongation is measured. The collected data are used to construct the engineering stress–strain curve of the material.
 
 ### Mathematical Formulation
 
@@ -67,7 +77,7 @@ $$
 \sigma=\frac{P}{A}
 $$
 
-where:
+where
 
 - $\sigma$ = Stress (N/mm² or MPa)
 - $P$ = Applied load (N)
@@ -81,10 +91,10 @@ $$
 \epsilon=\frac{\Delta L}{L}
 $$
 
-where:
+where
 
 - $\epsilon$ = Strain
-- $\Delta L$ = Extension of specimen
+- $\Delta L$ = Extension of the specimen
 - $L$ = Original gauge length
 
 Strain is a dimensionless quantity.
@@ -103,15 +113,23 @@ $$
 E=\frac{\sigma}{\epsilon}
 $$
 
-where:
+where
 
 - $E$ = Young's Modulus (N/mm² or GPa)
 
 Young's Modulus represents the stiffness of the material.
 
-#### Stress-Strain Behaviour
+### Stress–Strain Behaviour
 
-The stress-strain curve obtained from a tensile test contains several important regions.
+The engineering stress–strain curve obtained during a tensile test represents the complete mechanical behaviour of a material under tensile loading. It identifies the different stages of deformation and helps determine important mechanical properties such as the proportional limit, elastic limit, yield strength, ultimate tensile strength, and fracture point.
+
+<div align="center">
+
+<img src="images/stress_strain_curve.png" alt="Typical Engineering Stress–Strain Curve for a Ductile Material" width="700">
+
+**Figure 2. Typical engineering stress–strain curve for a ductile material (e.g., mild steel).**
+
+</div>
 
 #### Proportional Region
 
@@ -129,7 +147,7 @@ Plastic deformation begins and permanent deformation occurs.
 
 Additional stress is required to continue plastic deformation.
 
-#### Ultimate Tensile Strength
+#### Ultimate Tensile Strength (UTS)
 
 The maximum engineering stress attained during the test.
 
@@ -145,13 +163,13 @@ The specimen breaks and the test ends.
 
 #### Ductile Materials
 
-Examples:
+Examples
 
 - Mild Steel
 - Aluminium
 - Copper
 
-Characteristics:
+Characteristics
 
 - Significant plastic deformation before fracture.
 - Large percentage elongation.
@@ -159,13 +177,13 @@ Characteristics:
 
 #### Brittle Materials
 
-Examples:
+Examples
 
 - Cast Iron
 - Concrete
 - Glass
 
-Characteristics:
+Characteristics
 
 - Very little plastic deformation.
 - Sudden fracture.

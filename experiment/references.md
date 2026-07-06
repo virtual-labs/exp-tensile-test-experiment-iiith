@@ -12,8 +12,7 @@
 
 7. ASTM E8/E8M – Standard Test Methods for Tension Testing of Metallic Materials, ASTM International.
 
-8. Strength of Materials Laboratory Manual, Indian Institute of Technology Madras (IIT Madras):
-   https://home.iitm.ac.in/kramesh/Strength%20of%20Materials%20Laboratory%20Manual.pdf
+8. [Strength of Materials Laboratory Manual](https://home.iitm.ac.in/kramesh/Strength%20of%20Materials%20Laboratory%20Manual.pdf), Indian Institute of Technology Madras (IIT Madras)
 
 9. Gere, J.M., _Theory of Elastic Stability_, McGraw-Hill Education.
 
