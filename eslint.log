@@ -1,0 +1,37 @@
+
+/home/runner/work/exp-tensile-test-experiment-iiith/exp-tensile-test-experiment-iiith/experiment/simulation/js/comparison.js
+  66:5   warning  'Plotly' is not defined          no-undef
+  66:20  warning  'chartContainer' is not defined  no-undef
+
+/home/runner/work/exp-tensile-test-experiment-iiith/exp-tensile-test-experiment-iiith/experiment/simulation/js/corten.js
+  208:31  warning  'data' is not defined            no-undef
+  209:34  warning  'data' is not defined            no-undef
+  210:32  warning  'data' is not defined            no-undef
+  211:32  warning  'data' is not defined            no-undef
+  249:5   warning  'Plotly' is not defined          no-undef
+  249:20  warning  'chartContainer' is not defined  no-undef
+  266:7   warning  'Plotly' is not defined          no-undef
+  266:21  warning  'chartContainer' is not defined  no-undef
+
+/home/runner/work/exp-tensile-test-experiment-iiith/exp-tensile-test-experiment-iiith/experiment/simulation/js/main.js
+  210:31  warning  'data' is not defined            no-undef
+  211:34  warning  'data' is not defined            no-undef
+  212:32  warning  'data' is not defined            no-undef
+  213:32  warning  'data' is not defined            no-undef
+  251:5   warning  'Plotly' is not defined          no-undef
+  251:20  warning  'chartContainer' is not defined  no-undef
+  268:7   warning  'Plotly' is not defined          no-undef
+  268:21  warning  'chartContainer' is not defined  no-undef
+
+/home/runner/work/exp-tensile-test-experiment-iiith/exp-tensile-test-experiment-iiith/experiment/simulation/js/mild.js
+  214:31  warning  'data' is not defined            no-undef
+  215:34  warning  'data' is not defined            no-undef
+  216:32  warning  'data' is not defined            no-undef
+  217:32  warning  'data' is not defined            no-undef
+  255:5   warning  'Plotly' is not defined          no-undef
+  255:20  warning  'chartContainer' is not defined  no-undef
+  272:7   warning  'Plotly' is not defined          no-undef
+  272:21  warning  'chartContainer' is not defined  no-undef
+
+✖ 26 problems (0 errors, 26 warnings)
+

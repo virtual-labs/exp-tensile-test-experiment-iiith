@@ -1,0 +1,1 @@
+To perform a tensile test on a standard test specimen using a Universal Testing Machine (UTM) and determine its mechanical properties such as Young’s Modulus, Yield Strength, Ultimate Tensile Strength, Percentage Elongation, and Percentage Reduction in Area from the stress–strain relationship.

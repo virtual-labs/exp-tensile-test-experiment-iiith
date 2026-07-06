@@ -1,0 +1,158 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. During a tensile test, which property represents the maximum stress a material can withstand before necking begins?",
+      "answers": {
+        "a": "Yield Strength",
+        "b": "Ultimate Tensile Strength",
+        "c": "Breaking Strength",
+        "d": "Elastic Limit"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Yield strength marks the beginning of plastic deformation.",
+        "b": "Correct. Ultimate tensile strength is the maximum engineering stress reached during the test.",
+        "c": "Incorrect. Breaking strength corresponds to fracture.",
+        "d": "Incorrect. Elastic limit occurs before yielding."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which instrument measures extension over the gauge length during a tensile test?",
+      "answers": {
+        "a": "Micrometer",
+        "b": "Dial Gauge",
+        "c": "Extensometer",
+        "d": "Vernier Caliper"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. A micrometer measures dimensions.",
+        "b": "Incorrect. A dial gauge measures displacement but is not the standard instrument used here.",
+        "c": "Correct. An extensometer measures elongation over the gauge length.",
+        "d": "Incorrect. Vernier calipers measure dimensions."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which portion of the stress-strain curve follows Hooke's Law?",
+      "answers": {
+        "a": "Plastic Region",
+        "b": "Necking Region",
+        "c": "Fracture Region",
+        "d": "Proportional Region"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Plastic deformation does not obey Hooke's Law.",
+        "b": "Incorrect. Necking occurs after significant plastic deformation.",
+        "c": "Incorrect. Fracture occurs near the end of the test.",
+        "d": "Correct. Stress is directly proportional to strain in the proportional region."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. A specimen has an original gauge length of 50 mm and elongates by 0.25 mm. What is the strain?",
+      "answers": {
+        "a": "0.002",
+        "b": "0.005",
+        "c": "0.010",
+        "d": "0.020"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. The calculation is not consistent with strain definition.",
+        "b": "Correct. Strain = 0.25/50 = 0.005.",
+        "c": "Incorrect. This value overestimates the strain.",
+        "d": "Incorrect. This value is much larger than the calculated strain."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. A specimen carries a load of 40 kN and has an original area of 200 mm². What is the engineering stress?",
+      "answers": {
+        "a": "100 N/mm²",
+        "b": "150 N/mm²",
+        "c": "200 N/mm²",
+        "d": "250 N/mm²"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. The calculated stress is higher.",
+        "b": "Incorrect. This is not obtained from load divided by area.",
+        "c": "Correct. Stress = 40000/200 = 200 N/mm².",
+        "d": "Incorrect. This exceeds the calculated value."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Which property is obtained from the slope of the linear portion of the stress-strain curve?",
+      "answers": {
+        "a": "Yield Strength",
+        "b": "Young's Modulus",
+        "c": "Toughness",
+        "d": "Ductility"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Yield strength is identified at the onset of yielding.",
+        "b": "Correct. The slope of the elastic region gives Young's Modulus.",
+        "c": "Incorrect. Toughness is related to the area under the curve.",
+        "d": "Incorrect. Ductility is measured using elongation or reduction in area."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. A mild steel specimen of diameter 20 mm yields at a load of 82.5 kN. What is the yield stress?",
+      "answers": {
+        "a": "262.6 N/mm²",
+        "b": "525.2 N/mm²",
+        "c": "131.3 N/mm²",
+        "d": "None of the above"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Area = (π/4)(20²) = 314.16 mm². Yield stress = 82500/314.16 = 262.6 N/mm².",
+        "b": "Incorrect. The value is greater than the calculated yield stress.",
+        "c": "Incorrect. The value is lower than the calculated yield stress.",
+        "d": "Incorrect. One of the given values is correct."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. A mild steel specimen of diameter 20 mm reaches a maximum load of 155 kN. What is the ultimate tensile stress?",
+      "answers": {
+        "a": "246.6 N/mm²",
+        "b": "493.3 N/mm²",
+        "c": "986.6 N/mm²",
+        "d": "123.3 N/mm²"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. The computed value is higher.",
+        "b": "Correct. Ultimate stress = 155000/314.16 = 493.3 N/mm².",
+        "c": "Incorrect. This is approximately twice the correct value.",
+        "d": "Incorrect. This is significantly lower than the correct value."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. A specimen fractures under a load of 72.5 kN and the neck diameter is 10.75 mm. What is the average stress at fracture based on neck area?",
+      "answers": {
+        "a": "199.7 N/mm²",
+        "b": "399.4 N/mm²",
+        "c": "798.8 N/mm²",
+        "d": "998.8 N/mm²"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. The calculated stress is significantly higher.",
+        "b": "Incorrect. This value is approximately half the calculated stress.",
+        "c": "Correct. Neck area = (π/4)(10.75²) = 90.76 mm². Stress = 72500/90.76 = 798.8 N/mm².",
+        "d": "Incorrect. This exceeds the calculated value."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}

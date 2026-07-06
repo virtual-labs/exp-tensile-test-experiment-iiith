@@ -1,0 +1,158 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the primary purpose of a tensile test?",
+      "answers": {
+        "a": "To determine the mechanical properties of a material under tension",
+        "b": "To determine thermal conductivity",
+        "c": "To determine electrical resistance",
+        "d": "To determine magnetic properties"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Tensile testing is used to determine mechanical properties such as strength, stiffness, and ductility under tensile loading.",
+        "b": "Incorrect. Thermal conductivity is determined using heat transfer tests.",
+        "c": "Incorrect. Electrical resistance is measured using electrical testing methods.",
+        "d": "Incorrect. Magnetic properties are evaluated using magnetic testing techniques."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which machine is commonly used to perform a tensile test?",
+      "answers": {
+        "a": "Lathe Machine",
+        "b": "Universal Testing Machine",
+        "c": "Shaper Machine",
+        "d": "Milling Machine"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. A lathe machine is used for machining operations.",
+        "b": "Correct. A Universal Testing Machine (UTM) is used to perform tensile, compression, and other mechanical tests.",
+        "c": "Incorrect. A shaper machine is used for producing flat surfaces.",
+        "d": "Incorrect. A milling machine is used for material removal operations."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Stress is defined as:",
+      "answers": {
+        "a": "Load × Area",
+        "b": "Load ÷ Area",
+        "c": "Area ÷ Load",
+        "d": "Load × Length"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Stress is not the product of load and area.",
+        "b": "Correct. Stress is the applied load divided by the original cross-sectional area.",
+        "c": "Incorrect. This expression does not represent stress.",
+        "d": "Incorrect. Length is not involved in the definition of stress."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The elastic limit of a material is:",
+      "answers": {
+        "a": "The stress at fracture",
+        "b": "The maximum stress without permanent deformation",
+        "c": "The stress at necking",
+        "d": "The minimum stress in a specimen"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Fracture occurs after significant loading beyond the elastic range.",
+        "b": "Correct. The elastic limit is the highest stress a material can withstand without permanent deformation.",
+        "c": "Incorrect. Necking occurs much later during tensile testing.",
+        "d": "Incorrect. Elastic limit is not related to minimum stress."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. An extensometer is used to measure:",
+      "answers": {
+        "a": "Load",
+        "b": "Diameter",
+        "c": "Elongation",
+        "d": "Temperature"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Load is measured by the testing machine.",
+        "b": "Incorrect. Diameter is measured using calipers or micrometers.",
+        "c": "Correct. An extensometer measures the change in gauge length during testing.",
+        "d": "Incorrect. Temperature is measured using temperature sensors."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. In the proportional region of a stress-strain curve:",
+      "answers": {
+        "a": "Stress is proportional to strain",
+        "b": "Stress is constant",
+        "c": "Strain decreases with stress",
+        "d": "Necking occurs"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Hooke's law is valid in the proportional region.",
+        "b": "Incorrect. Stress changes with strain in this region.",
+        "c": "Incorrect. Stress and strain increase together.",
+        "d": "Incorrect. Necking occurs near ultimate load."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. True stress is calculated using:",
+      "answers": {
+        "a": "Original area only",
+        "b": "Final fractured area only",
+        "c": "Instantaneous cross-sectional area",
+        "d": "Gauge length"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Original area is used for engineering stress.",
+        "b": "Incorrect. Final area alone is insufficient.",
+        "c": "Correct. True stress uses the instantaneous cross-sectional area during deformation.",
+        "d": "Incorrect. Gauge length is not used in true stress calculation."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. Which phenomenon occurs after the ultimate tensile strength is reached in a ductile material?",
+      "answers": {
+        "a": "Elastic recovery",
+        "b": "Necking",
+        "c": "Yielding",
+        "d": "Proportional loading"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Elastic recovery occurs during unloading.",
+        "b": "Correct. Necking begins after the ultimate tensile strength is reached.",
+        "c": "Incorrect. Yielding occurs before strain hardening and ultimate strength.",
+        "d": "Incorrect. Proportional loading occurs at much lower stresses."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. Which property indicates the stiffness of a material?",
+      "answers": {
+        "a": "Yield Strength",
+        "b": "Ductility",
+        "c": "Young's Modulus",
+        "d": "Toughness"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Yield strength indicates the onset of plastic deformation.",
+        "b": "Incorrect. Ductility indicates the ability to deform plastically.",
+        "c": "Correct. Young's Modulus represents the stiffness of a material.",
+        "d": "Incorrect. Toughness measures energy absorption before fracture."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
